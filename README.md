@@ -164,10 +164,8 @@ Cases 1 and 3 end with a negative accumulator and exercise the correction state;
 *Figure 4. Waveform showing state transitions, `A`, `Q`, `count`, and the final quotient and remainder.*
 
 ### Console Output
-
-```text
-# Replace with your actual simulator transcript
-```
+![Console Output](assets/simulation_transcript.png)
+*Figure 5. Console output showing the passed test cases.*
 
 ---
 
@@ -184,29 +182,27 @@ Cases 1 and 3 end with a negative accumulator and exercise the correction state;
 cd sim
 vlib work
 vlog -sv ../rtl/*.sv ../testbench/*.sv
-vsim -c work.tb_top -do "run -all; quit"
+vsim -c work.top -do "run -all; quit"
 ```
 
 For the GUI and waveforms:
 
 ```bash
-vsim work.tb_top -do "add wave -r /*; run -all"
+vsim work.top -do "add wave -r /*; run -all"
 ```
 
 ### Xcelium
 
 ```bash
 cd sim
-xrun -sv -access +rwc ../rtl/*.sv ../testbench/*.sv -top tb_top
+xrun -sv -access +rwc ../rtl/*.sv ../testbench/*.sv -top top
 ```
 
 With the SimVision waveform viewer:
 
 ```bash
-xrun -sv -access +rwc -gui ../rtl/*.sv ../testbench/*.sv -top tb_top
+xrun -sv -access +rwc -gui ../rtl/*.sv ../testbench/*.sv -top top
 ```
-
-> Replace `tb_top` with the name of your top-level testbench module. Compile the RTL files in dependency order if your tool requires it.
 
 ---
 
@@ -237,7 +233,7 @@ xrun -sv -access +rwc -gui ../rtl/*.sv ../testbench/*.sv -top tb_top
 
 ## Author
 
-**Seth**
+**Asiedu Seth Osei**
 
 Computer Engineering, Kwame Nkrumah University of Science and Technology (KNUST)
 
