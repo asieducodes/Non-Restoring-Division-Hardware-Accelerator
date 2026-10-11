@@ -111,7 +111,7 @@ A 7-state Moore machine. The decrement happens in the same state as the shift an
 
 ### Datapath
 
-![Datapath Schematic](assets/datapath_schematic.png)
+![Datapath Schematic](assets/datapath_schematic.jpg)
 
 *Figure 2. Datapath: registers A, Q, M, counter, shifter and add/subtract ALU.*
 
