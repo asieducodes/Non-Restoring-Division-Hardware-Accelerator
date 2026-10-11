@@ -159,7 +159,7 @@ Cases 1 and 3 end with a negative accumulator and exercise the correction state;
 
 ### Simulation Waveform
 
-![Simulation Waveform](assets/simulation_waveform.png)
+![Simulation Waveform](assets/simulation_waveform1.png)
 
 *Figure 4. Waveform showing state transitions, `A`, `Q`, `count`, and the final quotient and remainder.*
 
