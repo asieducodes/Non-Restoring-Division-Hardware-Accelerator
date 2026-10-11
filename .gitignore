@@ -1,0 +1,64 @@
+# QuestaSim / ModelSim
+work/
+transcript
+*.wlf
+*.mpf
+*.mti
+vsim.wlf
+modelsim.ini
+questa.do.bak
+
+# Cadence Xcelium
+xcelium.d/
+xrun.history
+xrun.log
+xrun.key
+waves.shm/
+*.shm/
+*.trn
+*.dsn
+.simvision/
+cdsLog*
+INCA_libs/
+
+# Vivado
+*.jou
+*.str
+*.backup.jou
+*.backup.log
+vivado*.log
+vivado*.jou
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+
+# Waveform and simulation dumps
+*.vcd
+*.fsdb
+*.vpd
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*~
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
